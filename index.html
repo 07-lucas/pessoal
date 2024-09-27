@@ -1,78 +1,168 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-  <head>
-    <title>cadastro do cliente</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f2f2f2;
-      }
-
-      h2 {
-        text-align: center;
-      }
-
-      form {
-        max-width: 400px;
-        margin: 20px auto;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-
-      label,
-      input {
-        display: block;
-        margin-bottom: 10px;
-      }
-
-      input[type="text"],
-      input[type="email"],
-      input[type="tel"] {
-        width: 95%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-      }
-
-      input[type="submit"] {
-        width: 100%;
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        background-color: #007bff;
-        color: #fff;
-        cursor: pointer;
-      }
-
-      input[type="submit"]:hover {
-        backgrond-color: #0056b3;
-      }
-    </style>
-    <script type="text/javascript" src="./index.js" defer=""></script>
-    <link rel="stylesheet" href="./index.css">
-  </head>
-
-  <body>
-    <h2>cadastro de pessoas</h2>
-    <form>
-      <label>nome:</label>
-      <input type="text" id="nome" name="nome" required="">
+<html>
 
 
-      <label>email:</label>
-      <input type="email" id="email" name="email" required="">
+<head>
+  <title>minha página pessoal</title>
+</head>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: arial, sans-serif;
+  background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+header{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+header h1{
+  margin-bottom: 10px;
+}
+nav ul {
+list-style: none;
+}
+nav ul li{
+  display: inline;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: #fff;
+text-decoration: none;
+}
+section {
+  margin: 20px 0;
+}
+section#sobre,
+section#projetos,
+section#cadastro,
+sectiom#contato{
+  background-color: #fff;
+  padding: 20px;
+  border-box: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+ h2 {
+      text-align: center;
+    }
 
 
-      <label>telefone:</label>
-      <input type="tel" id="telefone" name="telefone" required="">
-      <input type="submit" value="cadastrar">
-    </form>
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-  </body>
 
+    label,
+    input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border:none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      cursor:pointer;
+    }
+       input[type="submit"]:hover {
+          backgrond-color: #fff;
+    }
+
+  </style>
+<body>
+  <header>
+    <h1>Bem vindo a página pessoal de Lucas</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">sobre min</a></li>
+        
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#cadastro">cadastro</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="sobre">
+    <h2>sobre min</h2>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+    <p>ssssssssssssssssssssssssssskrioegjçriepSRVIOWRJGPOWREKPWREPWR</p>
+  </section>
+  <section id="projetos">
+    <h2>projetos</h2>
+    <ul>
+      <li>projeto 1: <a href="#">Descrição 1</a></li>
+      <li>projeto 2: <a href="#">Descrição 2</a></li>
+    </ul>
+  </section>
+  <section id="cadastro">
+    <h3>cadastro de pessoas</h3>
+  <form>
+    <label>nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+
+
+
+    <label>email:</label>
+    <input type="email" id="email" name="email" required>
+
+
+
+
+    <label>telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required>
+    <input type="submit" value="cadastrar">
+  </form>
+
+  <section id="contato">
+    <h3>contato</h3>
+    <p>entre em contato comigo via <a href="mailto:lucas_farias-silva@estudante.sesisenai.org.br">lucas_farias-silva@estudante.sesisenai.org.br</a>.</p>
+  </section>
+  <footer>
+    <p>&copy; 2024 - lucas farias da silva</p>
+  </footer>
+</body>
 </html>
